@@ -28,9 +28,9 @@ function setup() {
     120,
     120
   );
-
-  board1 = new Board(width - 300, 330, 50, 200);
-  board2 = new Board(width - 550, height - 300, 50, 200);
+  
+  board1 = new Board(Math.round(random(width - 300, width-80)), 330, 50, 200);//width - 300
+  board2 = new Board(Math.round(random(width - 550, width - 350)), height - 300, 50, 200);//width - 550
 }
 
 function draw() {
